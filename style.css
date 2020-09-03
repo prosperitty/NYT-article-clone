@@ -33,7 +33,11 @@ nav {
     margin-right: 25px;
 }
 
-.btn-nav {
+.btn-comment {
+    width: 300px;
+}
+
+.btn {
     height: 34px;
     margin-right: 10px;
 
@@ -89,7 +93,7 @@ figcaption {
     font-size: 14px;
 }
 
-.header-icon {
+.content-icons {
     height: 20px;
     width: 20px;
     margin-right: 10px;
@@ -117,8 +121,6 @@ figcaption {
     font-family: sans-serif;
     font-weight: 300;
     line-height: 16px;
-
-    /* overflow: hidden; */
 }
 
 .short-descriptions p {
@@ -128,4 +130,15 @@ figcaption {
 span b {
     font-size: 12px;
     font-weight: 600;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer-note {
+    font-size: 13px;
+    color: rgb(104, 104, 104);
 }
