@@ -68,14 +68,16 @@ img {
     width: 100%;
 }
 
-.header-pic-caption {
-    margin: auto 10px;
+figcaption {
+    font-size: 1rem;
     color: rgb(109, 109, 109);
 }
 
 .article-content {
     margin: auto 25%;
+
     font-size: 1.3rem;
+    line-height: 1.5;
 }
 
 .article-date-container {
@@ -91,4 +93,39 @@ img {
     height: 20px;
     width: 20px;
     margin-right: 10px;
+}
+
+#article-heading {
+    font-family: helvetica, arial ,sans-serif;
+}
+
+.theory-of-inflation-container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.short-descriptions {
+    position: absolute;
+    width: 228px;
+
+}
+
+#tof-container {
+    position: relative;
+
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 16px;
+
+    /* overflow: hidden; */
+}
+
+.short-descriptions p {
+    margin: 0;
+}
+
+span b {
+    font-size: 12px;
+    font-weight: 600;
 }
