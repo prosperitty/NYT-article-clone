@@ -26,7 +26,7 @@ nav {
 .nyt-logo {
     flex-shrink: 0;
     height: 28px;
-    width: 300px;
+    /* width: 300px; */
 }
 
 .nav-icons {
@@ -78,7 +78,9 @@ figcaption {
 }
 
 .article-content {
-    margin: auto 25%;
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
 
     font-size: 1.3rem;
     line-height: 1.5;
@@ -141,4 +143,78 @@ span b {
 .content-footer-note {
     font-size: 13px;
     color: rgb(104, 104, 104);
+}
+
+hr {
+    width: 93%;
+    height: 2px;
+    margin-top: 50px;
+
+    color: rgba(173, 173, 173, 0.446);
+
+    border-left: none;
+    border-right: none;
+}
+
+.footer-nav {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    font-family: sans-serif;
+}
+
+.links-container ul {
+    padding: 0;
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.7;
+    text-transform: capitalize;
+}
+
+footer ul > li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+footer ul {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    height: 60px;
+    width: 93%;
+    margin: 0 auto;
+
+    font-size: 11px;
+    text-transform: capitalize;
+
+    border-top: 1px solid rgb(190, 190, 190)
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#sub-list-start {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sub-list-container {
+    padding-left: 20px;
+
+    border-left: 1px solid rgb(190, 190, 190);
+}
+
+.sub-list-middle {
+    border-bottom: 1px solid rgb(190, 190, 190);
 }
