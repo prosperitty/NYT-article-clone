@@ -26,7 +26,6 @@ nav {
 .nyt-logo {
     flex-shrink: 0;
     height: 28px;
-    /* width: 300px; */
 }
 
 .nav-icons {
@@ -49,7 +48,6 @@ nav {
     border-radius: 3px;
     background-color: #567b95;
 }
-
 
 figure {
     height: auto;
